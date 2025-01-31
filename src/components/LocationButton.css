@@ -1,0 +1,15 @@
+.div_btn_location{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.btn_location{
+background-color: #f37e16;
+padding: 6px 16px;
+color: white;
+border: none;
+border-radius: 4px;
+}
