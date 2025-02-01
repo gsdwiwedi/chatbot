@@ -3,7 +3,7 @@ import "./Home.css";
 import App from "./App";
 
 function Home() {
-  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [isChatOpen, setIsChatOpen] = useState(true);
 
   return (
     <div className="App">
