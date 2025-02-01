@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from '../assets/Logo.jpg'
+import logo from '../assets/Logo.webp'
 import { IoCloseCircle } from "react-icons/io5";
 import { IoReloadCircleSharp } from "react-icons/io5";
 import { useRef } from 'react';
