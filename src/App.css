@@ -4,13 +4,13 @@
        box-sizing: border-box;
 }
 
-.App{
+/* .App{
        background-color:transparent;
        display: flex;
        align-items: center;
        justify-content: center;   
 }
-
+ */
 .react-chatbot-kit-chat-container {
        background-color:transparent;
        width: 320px;
