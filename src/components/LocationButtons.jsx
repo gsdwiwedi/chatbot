@@ -1,6 +1,6 @@
 import './LocationButton.css'
 const LocationButtons = (props) => {
-    const location = ['Noida,Sector-15', 'Vashundhra, Ghaziabad', 'Online']
+    const location = ['Noida,Sector-15', 'Ghaziabad', 'Online']
 
     const handleLocation = (event) => {
         const buttonText = event.target.innerText; 
