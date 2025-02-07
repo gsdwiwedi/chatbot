@@ -33,7 +33,7 @@
 
 /* Chatbot Container */
 .chatbot-container {
-  position: fixed;
+  position: absolute;
   bottom: 90px;
   right: 20px;
   width: 320px;
