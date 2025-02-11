@@ -13,6 +13,13 @@ function App() {
     const setupInputListener = () => {
       const inputElement = document.querySelector('.react-chatbot-kit-chat-input');
       const sendButton = document.querySelector('.react-chatbot-kit-chat-btn-send');
+      const chatbotButton = document.querySelector('.chatbot-button');
+     const chatbotContainer = document.querySelector('.chatbot-container');
+
+chatbotButton.addEventListener('click', () => {
+  chatbotButton.classList.toggle('active');
+  chatbotContainer.classList.toggle('hidden');
+});
 
       if (inputElement && sendButton) {
         sendButton.disabled = !inputElement.value.trim();
