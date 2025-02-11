@@ -1,4 +1,4 @@
-/* *{
+ *{
        margin: 0;
        padding: 0;
        box-sizing: border-box;
@@ -50,58 +50,5 @@
 }
 
     
- */
+ 
 
-/* Chatbot Container */
-.chatbot-container {
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  width: 320px;
-  height: 490px;
-  z-index: 1000;
-  transition: opacity 0.3s ease-in-out;
-  opacity: 1;
-}
-
-.chatbot-container.hidden {
-  opacity: 0;
-  pointer-events: none;
-  display: none;
-}
-
-/* Floating Chatbot Button */
-.chatbot-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background: #0078ff;
-  color: white;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 0 15px rgba(0, 120, 255, 0.8);
-  transition: all 0.3s ease-in-out;
-  z-index: 999;
-  border: none;
-}
-
-.chatbot-button:hover {
-  box-shadow: 0 0 25px rgba(0, 120, 255, 1);
-}
-
-.chatbot-button.active {
-  background: #ff5252;
-  box-shadow: 0 0 25px rgba(255, 82, 82, 0.8);
-}
-
-/* Override react-chatbot-kit styles if needed */
-.react-chatbot-kit-chat-container {
-  width: 100% !important;
-  height: 100% !important;
-}
